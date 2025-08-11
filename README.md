@@ -41,4 +41,42 @@ Secure design ka matlab hai ke jab system ya application banai jati hai to shuru
 ### Regular Updates & Patch Management
 **English** Continuously update systems to fix known vulnerabilities.
 
-**Urdu** System ko regularly update aur patch karo taake known bugs fix ho jayein.
+
+## Secure Design Configuration Principles
+
+### Principle	---------------------------English Explanation-----------------------------------	Urdu Explanation
+
+Least Privilege	-------------Grant only the minimum access rights needed.	-----------------Sirf wohi access do jo zaroori hai.
+
+Defense in Depth	--------------Multiple security layers for protection.	-----------------------Har level pe security ka layer lagao.
+
+Fail-Safe Defaults-------------------	Deny by default, allow only when needed.-----------------	Default me deny ho, jab tak explicitly allow na karein.
+
+Separation of Duties --------------	Divide critical tasks between people.	------------------Kaam alag logon me distribute karo.
+
+Secure Defaults---------------	Default configurations must be secure.	------------------------Default settings safe aur secure honi chahiye.
+
+KISS (Keep It Simple)----------------	Simple designs reduce vulnerabilities.-----------------	Simple design rakho, kam flaws honge.
+
+Complete Mediation ----------------	Check every access request every time.	-----------------Har access request ko bar bar verify karo.
+
+Open Design	Security --------------- should rely on secrecy of keys, not secrecy of design.	--------------Design public ho sakta hai, sirf key secret honi chahiye.
+
+Economy of Mechanism	----------------Use the least complex solution possible.	----------------------Simple aur chhoti mechanism rakho, kam bugs.
+
+Least Common Mechanism ---------------	Minimize shared components between users.---------------	Users ke beech shared cheez kam ho, taake leak kam ho.
+
+Secure by Default-------------------	New systems should start in secure mode.	----------------------New system start se secure mode me ho.
+
+Zero Trust Principle	--------------------Never automatically trust any device or user.	-----------------Kisi bhi user/device ko auto trust mat karo.
+
+Regular Patch Management------------------	Update software/hardware to fix vulnerabilities.--------------	Har update aur patch timely install karo.
+
+Monitoring and Logging-------------------	Keep track of system activities and access.----------------	System ki activities log aur monitor karo.
+
+Backup and Recovery	------------Maintain backups for disaster recovery.	Data ka backup rakho taake crash me recover ho.
+
+Configuration Baseline -------------------	Maintain a secure standard configuration template.----------------	Ek secure configuration ka standard template rakho.
+
+Hardening ---------------------	Remove unnecessary services, accounts, and features.	---------------------Extra services aur accounts delete karo jo zaroori na ho.
+
