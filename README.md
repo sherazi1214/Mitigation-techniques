@@ -1,4 +1,4 @@
-# Mitigation-techniques
+# Mitigation-techniques & **[Segmentation](https://github.com/sherazi1214/Segmentation)**
 
 ## Secure Design
 **English:**
